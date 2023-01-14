@@ -1,0 +1,10 @@
+def foo(a):
+    return a+a+a
+b = 1
+c = foo(b)
+d = foo(c)
+e = foo(d)
+
+print(b)
+
+print(e)
