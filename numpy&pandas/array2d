@@ -1,9 +1,0 @@
-import numpy as np
-
-jogadores = np.array([[6.2, 247], [5.7, 176], [6.7, 213], [5.4, 154]])
-print(jogadores.shape) #retorna o "shape" do array. Neste caso temos uma matriz 4x2 (4 linhas e 2 colunas).
-print(jogadores)
-
-conversor = np.array([3.281, 2.205]) 
-convertido = jogadores/conversor #aqui nós dividimos a coluna 1 de jogadores com a coluna 1 de conversor. O mesmo acontece para a coluna 2 das duas matrizes, realizando a conversão de PÉ->METRO e LIBRA->QUILO, respectivamente.
-print(convertido)
